@@ -84,7 +84,7 @@ img {
   width: 24px;
 }
 
-a {
+#tweetBtn {
   position: absolute;
   bottom: 20px;
   left: 30px;
@@ -95,6 +95,12 @@ a {
   border-radius: 5px;
   font-weight: 500;
 }
+#contribute {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
 
 @media only screen and (max-width: 560px) {
   #content input {
@@ -108,8 +114,11 @@ a {
   .head {
     font-size: 2rem;
   }
-  a {
+  #tweetBtn {
     left: 20px;
   }
+  #contribute svg {
+    width: 120px;
+    height: 120px;
+  }
 }
-/*# sourceMappingURL=style.css.map */
